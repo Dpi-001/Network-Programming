@@ -10,8 +10,8 @@ public class equalsMethod {
         try {
             System.out.print("Enter first domain: ");
             String domain1 = sc.nextLine();
-
-            System.out.print("Enter second domain: ");
+ `
+            System.out.print("Enter second domain: ");//second domain input
             String domain2 = sc.nextLine();
 
             // Get InetAddress objects
