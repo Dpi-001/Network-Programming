@@ -25,6 +25,7 @@ public class URISplitter {
                     System.out.println("The host is " + u.getHost());
                     System.out.println("The user info is " + u.getUserInfo());
                     System.out.println("The port is " + u.getPort());
+                    
                 } catch (URISyntaxException ex) {
                     // Must be a registry-based authority
                     System.out.println("The authority is " + u.getAuthority());
