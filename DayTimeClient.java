@@ -1,3 +1,5 @@
+// Example 8-1. A daytime protocol client
+
 import java.net.*;
 import java.io.*;
 import java.util.Scanner;
